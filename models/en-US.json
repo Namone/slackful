@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "slackful",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "StatusIntent",
+          "slots": [],
+          "samples": [
+            "tell slackful to set my status to working from home.",
+            "tell slackful I'm back.",
+            "tell slackful I'm back in the office.",
+            "tell slackful I'm leaving for a bit.",
+            "tell slackful I'm leaving my office.",
+            "tell slackful I am away.",
+            "tell slackful to update my status to away."
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
